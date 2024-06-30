@@ -1,7 +1,6 @@
-import { useState } from 'react'
-import { TEInput, TERipple } from 'tw-elements-react'
+import { useState } from "react";
+import { TEInput, TERipple } from "tw-elements-react";
 function App() {
-
   return (
     <section className="h-screen">
       <div className="container h-full px-6 py-24">
@@ -123,7 +122,7 @@ function App() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default App
+export default App;
