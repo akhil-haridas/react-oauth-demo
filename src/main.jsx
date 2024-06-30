@@ -10,6 +10,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <GoogleOAuthProvider clientId={import.meta.env.OAUTH_CLIENT_KEY}>
       <App />
     </GoogleOAuthProvider>
-    ;
   </React.StrictMode>
 );
